@@ -1,14 +1,14 @@
 /* Latitude Label*/
-.navbar-header{
-    margin-left: 200px;
+.navbar-default .navbar-header{
+    margin-left: 50px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: white;}
-a.navbar-brand{
+    background-color: teal; }
+.navbar-header a.navbar-brand{
     font-size: 30px;
     font-weight: bold;
-    color: teal;
-}
+    color: white; 
+    margin-left: 40px;}
 
 /*Summary*/
 .container{
@@ -90,8 +90,8 @@ a.navbar-brand{
     visibility: visible;
 }
 
-#plots-small img{
-    margin-right:5px;
-    margin-left: 5px;
-    margin-bottom: 10px;
+.col-md-3{
+    float: left;
+    width: 70px;
+    padding: 5px;
 }}
