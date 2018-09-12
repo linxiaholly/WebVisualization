@@ -84,6 +84,8 @@
 
 /* Adding media queries to change plots position when the screen is smaller than 480 pixels */
 @media (max-width: 480px) {
+.navbar-collapse.in{ overflow-y:visible;}
+    
 .plots{visibility: hidden;}
 
 #plots-small{
