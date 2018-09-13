@@ -68,9 +68,6 @@
     height: auto;
 }
 
-.plots{
-    visibility: visible;
-}
 .plots img{
     margin-right:5px;
     margin-left: 5px;
@@ -78,22 +75,6 @@
 }
 
 
-#plots-small{
-    visibility: hidden;
-}
-
 /* Adding media queries to change plots position when the screen is smaller than 480 pixels */
 @media (max-width: 480px) {
 .navbar-collapse.in{ overflow-y:visible;}
-    
-.plots{visibility: hidden;}
-
-#plots-small{
-    visibility: visible;
-}
-
-.col-md-3{
-    float: left;
-    width: 70px;
-    padding: 5px;
-}}
